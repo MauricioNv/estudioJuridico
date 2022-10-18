@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Claudia Velasquez, abogado y Asociados </title>
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/estilototales.css">
+    <link rel="stylesheet" href="css/flexbox.estilostotales.css">
+  
+  
+  </head>
+  
+  
+  <div >
+  
+    <body>
+      <header class="headerPrincipal">
+
+        <div class="contenedor">
+  
+          <img src="fotos/logo.png" class="logo">
+  
+          <h1 class=headerPrincipal-titulo> |Claudia Velasquez abogado </h1>
+  
+          <nav class=" headerPrincipal-nav">
+            <a class=" headerPrincipal-nav-link " href="index.html"> inicio</a></li>
+            <a class=" headerPrincipal-nav-link " href="equipo.html"> equipo </a> </li>
+            <a class=" headerPrincipal-nav-link " href=" contacto.html"> contacto </a> </li>
+          </nav>
+        </div>
+  
+      </header>
+    
+    <main  class="claseContacto">  
+      <form  class="formulario">
+          <label for= "nombreapellido" > nombre y apellido</label>
+          <input type="text" id="nombreapellido" class="padron" required>
+          
+          <label for= "correoelectronico" > correo electronico </label>
+          <input type= "email" id = "correoelectronico" class="padron" required
+          placeholder="email@dominio.com">
+
+          <label for= "telefono" > telefono </label>
+          <input type="tel" id= "telefono" class="padron" required
+          placeholder="(xx) xxxx xxxx">
+
+          <label for="mensaje"> mensaje</label>
+          <textarea name="mensaje" id="mensaje" cols="70" rows="10"
+          class="padron"></textarea>
+
+         <fieldset>
+              <legend> ¿como le gustaria que lo contactaramos? </legend>
+              
+              <label for="radio-mail"><input type="radio" name="contacto"  
+                value="mail" id="radio-mail"> mail </label>              
+
+              <label for="radio-telefono"> <input type="radio"  name="contacto" 
+                value="telefono" id="radio-telefono"> telefono </label>              
+
+              <label for="radio-whatsapp"> <input type="radio" name="contacto" 
+                value="" id="whatsapp-" checked> whatsapp </label>
+           </fieldset>  
+
+          <fieldset>
+            <legend> ¿en cual horario prefiere ser contactado? </legend>
+              <select>
+                <option> mañana </option>
+                <option> tarde </option>
+                <option> nunca </option>        
+              </select>
+          </fieldset>
+          
+           <label class="checkbox"><input type="checkbox" checked>¿Le gustaría recibir novedades de la Barbería Alura?</label>                
+                
+           <input type="submit" value="Enviar formulario" class="enviar">
+
+         </form>             
+     </main>  
+     
+     <footer class="rodapePrincipal">
+		
+      <section class="rodapePrincipal-patrocinadores">
+        <div class="container">
+          <ul class="rodapePrincipal-patrocinadores-list">
+            <li>
+              <a class="rodapePrincipal-patrocinadores-list-link patrocinadores-list-link-alura" href="https://www.aluracursos.com/">
+                <img src="logos/alura.svg"  alt="Logo da Alura">
+              </a>
+            </li>
+            <li>
+              <a class="rodapePrincipal-patrocinadores-list-link patrocinadores-list-link-caelum" href="equipo.html">
+                <img src="fotos/logow&b.png" width="45%" alt="Logo cala">
+              </a>
+            </li>	
+            <li>
+              <a class="rodapePrincipal-patrocinadores-list-link patrocinadores-list-link-casaDoCodigo" href="#">
+                <img src="logos/cdc.svg" alt="Logo da Casa do Código">
+              </a>
+            </li>				
+          </ul>
+        </div>
+      </section>
+  
+    </footer>
+  
+  </body>
+
+ </html>
