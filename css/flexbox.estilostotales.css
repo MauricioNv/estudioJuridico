@@ -1,0 +1,123 @@
+
+ .headerPrincipal .contenedor {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .headerPrincipal-nav {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .mainPrincipal {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+  }
+
+  footer {
+    position: relative;
+    text-align: center;
+    padding: 40px;
+
+  }
+  #imgCala {
+    align-items: center;
+    
+  }
+  .
+
+  /*-----------------piedepagina-----------------------------*/
+
+  .rodapePrincipal-patrocinadores .container {
+    display: flex;
+    justify-content: space-between;
+
+  }
+
+  .rodapePrincipal-patrocinadores-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    margin-right: 5%;
+  }
+
+  .copyright {
+    color: #dbf245;
+    font-size: 13px;
+    margin: 20px;
+  }
+
+  @media only screen and (max-width: 960px) {
+
+    .headerPrincipal .contenedor {
+      padding: 0 2rem 0 2rem;
+      flex-direction: column;
+    }
+
+    .headerPrincipal .contenedor {
+      padding: 0 2rem 0 2rem;
+      flex-direction: column;
+    }
+
+    .headerPrincipal-titulo {
+      flex-direction: column;
+      font-size: 20px;
+
+    }
+
+    .headerPrincipal-nav {
+      flex-direction: column;
+
+    }
+
+    .headerPrincipal-nav-link {
+      display: block;
+      flex-direction: column;
+      font-size: 18px;
+
+    }
+
+    .headerPrincipal .contenedor {
+      flex-direction: column;
+      align-items: center;
+    }
+    #imgCala {
+       
+      margin-left: 72px;
+  }
+
+    .mainPrincipal{
+      flex-direction: column;
+    }
+    .formulario{
+      display: block;
+      flex-direction: column;
+    }
+    .claseContacto{ 
+      width: 100%; 
+      margin: 0 auto;    
+    }
+   
+    .rodapePrincipal-patrocinadores .container {
+      flex-direction: column;
+       
+  }
+
+  .rodapePrincipal-contatoForm {     
+      flex-direction: column;
+  }
+
+  .rodapePrincipal-patrocinadores-list {
+     display: block;
+     justify-content: space-between;
+  }
+  .fieldset {
+    display: block;
+  }
+   
+
+  }
