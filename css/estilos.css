@@ -22,8 +22,7 @@ body {
 }
 
 /*-----------header--------------------------------*/
-.contenedor {
-  width: 94%;
+.contenedor {  
   margin: 0 auto;
 }
 
@@ -105,8 +104,7 @@ body {
 .rodapePrincipal-patrocinadores {
 	
 	background:linear-gradient(#FEFEFE, #888888);
-  margin-top: 200px;
-	padding: 30px 0;   
+      
   
 }
 
